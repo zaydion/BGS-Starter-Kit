@@ -3,40 +3,16 @@
 // Hover to view descriptions of existing attributes.
 // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
 {
-    "name": "bgs-starter-kit",
-    "displayName": "BGS Starter Kit",
-    "description": "Quickstart for installing tools & adjusting settings to comply with dev workflow at BrightGauge Software",
-    "version": "0.0.1",
-    "publisher": "josecartagena",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/zaydion/BGS-Starter-Kit",
-    },
-    "keywords": [
-      "BrightGauge",
-      "BrightGauge Software",
-      "React",
-      "React JS",
-      "Haml",
-      "Python",
-      "Linting",
-    ],
-    "engines": {
-      "vscode": "^1.25.1"
-    },
-    "categories": [
-      "Extension Packs"
-    ],
-    "extensionDependencies": [
-      "dzannotti.vscode-babel-coloring",
-      "karunamurti.haml",
-      "msjsdiag.debugger-for-chrome",
-      "dsznajder.es7-react-js-snippets",
-      "dbaeumer.vscode-eslint",
-      "eamodio.gitlens",
-      "pkief.material-icon-theme",
-      "esbenp.prettier-vscode",
-      "equinusocio.vsc-material-theme",
-      "ms-python.python",
+	"version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Extension",
+            "type": "extensionHost",
+            "request": "launch",
+            "runtimeExecutable": "${execPath}",
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}"
+            ]
+        }
     ]
 }

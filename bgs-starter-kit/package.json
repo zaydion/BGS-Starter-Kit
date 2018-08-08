@@ -10,18 +10,17 @@
     "categories": [
         "Extension Packs"
     ],
-    "extensionDependencies": [ 
-        "CoenraadS.bracket-pair-colorizer", 
-        "dbaeumer.vscode-eslint", 
-        "dsznajder.es7-react-js-snippets", 
-        "dzannotti.vscode-babel-coloring", 
-        "eamodio.gitlens", 
-        "Equinusocio.vsc-material-theme", 
-        "esbenp.prettier-vscode", 
-        "karunamurti.haml", 
-        "ms-python.python", 
-        "msjsdiag.debugger-for-chrome", 
-        "PKief.material-icon-theme", 
-        "rebornix.ruby"
+    "extensionDependencies": [
+        "CoenraadS.bracket-pair-colorizer",
+        "dbaeumer.vscode-eslint",
+        "dsznajder.es7-react-js-snippets",
+        "dzannotti.vscode-babel-coloring",
+        "eamodio.gitlens",
+        "Equinusocio.vsc-material-theme",
+        "esbenp.prettier-vscode",
+        "karunamurti.haml",
+        "ms-python.python",
+        "msjsdiag.debugger-for-chrome",
+        "PKief.material-icon-theme",
     ]
 }
