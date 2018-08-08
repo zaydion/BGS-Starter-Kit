@@ -1,0 +1,27 @@
+{
+    "name": "bgs-starter-kit",
+    "displayName": "BGS Starter Kit",
+    "description": "Quickstart for installing tools & adjusting settings to comply with dev workflow at BrightGauge Software",
+    "version": "0.0.1",
+    "publisher": "josecartagena",
+    "engines": {
+        "vscode": "^1.25.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionDependencies": [ 
+        "CoenraadS.bracket-pair-colorizer", 
+        "dbaeumer.vscode-eslint", 
+        "dsznajder.es7-react-js-snippets", 
+        "dzannotti.vscode-babel-coloring", 
+        "eamodio.gitlens", 
+        "Equinusocio.vsc-material-theme", 
+        "esbenp.prettier-vscode", 
+        "karunamurti.haml", 
+        "ms-python.python", 
+        "msjsdiag.debugger-for-chrome", 
+        "PKief.material-icon-theme", 
+        "rebornix.ruby"
+    ]
+}
