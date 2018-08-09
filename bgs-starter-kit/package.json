@@ -11,7 +11,6 @@
         "Extension Packs"
     ],
     "extensionDependencies": [
-        "CoenraadS.bracket-pair-colorizer",
         "dbaeumer.vscode-eslint",
         "dsznajder.es7-react-js-snippets",
         "dzannotti.vscode-babel-coloring",
@@ -21,6 +20,57 @@
         "karunamurti.haml",
         "ms-python.python",
         "msjsdiag.debugger-for-chrome",
-        "PKief.material-icon-theme",
-    ]
+        "PKief.material-icon-theme"
+    ],
+    "contributes": {
+        "configuration": [
+            {
+                "window.zoomLevel": 0,
+                "workbench.colorTheme": "Material Theme",
+                "workbench.iconTheme": "material-icon-theme",
+                "workbench.colorCustomizations": {
+                    "activityBar.background": "#000",
+                    "sideBar.background": "#000",
+                    "sideBar.foreground": "#c4c4c4"
+                },
+                "workbench.editor.enablePreviewFromQuickOpen": false,
+                "workbench.editor.tabCloseButton": "off",
+                "materialTheme.fixIconsRunning": false,
+                "editor.fontSize": 18,
+                "editor.fontFamily": "Operator Mono",
+                "editor.tabSize": 2,
+                "editor.renderWhitespace": "all",
+                "editor.formatOnSave": false,
+                "editor.multiCursorModifier": "ctrlCmd",
+                "editor.snippetSuggestions": "top",
+                "files.trimTrailingWhitespace": true,
+                "files.trimFinalNewlines": true,
+                "files.insertFinalNewline": true,
+                "javascript.format.enable": false,
+                "[javascript]": {
+                    "editor.rulers": [
+                        99
+                    ]
+                },
+                "[python]": {
+                    "editor.tabSize": 4,
+                    "editor.formatOnSave": false,
+                    "editor.rulers": [
+                        79,
+                        119
+                    ]
+                },
+                "gitlens.advanced.messages": {
+                    "suppressShowKeyBindingsNotice": true
+                },
+                "gitlens.historyExplorer.enabled": true,
+                "prettier.eslintIntegration": true,
+                "prettier.semi": false,
+                "prettier.singleQuote": true,
+                "prettier.trailingComma": "es5",
+                "prettier.arrowParens": "always",
+                "javascript.updateImportsOnFileMove.enabled": "never"
+            }
+        ]
+    }
 }
