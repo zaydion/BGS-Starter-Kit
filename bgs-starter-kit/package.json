@@ -1,9 +1,14 @@
 {
     "name": "bgs-starter-kit",
-    "displayName": "BGS Starter Kit",
+    "displayName": "BGS Starter Kit 🚀",
     "description": "Quickstart for installing tools & adjusting settings to comply with dev workflow at BrightGauge Software",
     "version": "0.0.1",
     "publisher": "josecartagena",
+    "icon": "images/bg-pie-logo.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/zaydion/BGS-Starter-Kit.git"
+    },
     "engines": {
         "vscode": "^1.25.0"
     },
