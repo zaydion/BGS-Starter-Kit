@@ -5,6 +5,7 @@
     "version": "1.0.0",
     "publisher": "josecartagena",
     "icon": "images/bg-pie-logo.png",
+    "homepage": "https://marketplace.visualstudio.com/items?itemName=josecartagena.bgs-starter-kit",
     "repository": {
         "type": "git",
         "url": "https://github.com/zaydion/BGS-Starter-Kit.git"
@@ -62,22 +63,6 @@
                     "default": false,
                     "description": "Enable javascript formatting"
                 },
-                "[javascript]": {
-                    "type": "object",
-                    "title": "JavaScript settings",
-                    "properties": {
-                        "editor.rulers": {
-                            "type": "array",
-                            "items": {
-                                "type": "integer"
-                            },
-                            "default": [
-                                99
-                            ],
-                            "description": "List of editor rulers for javascript"
-                        }
-                    }
-                },
                 "python.linting.pylintEnabled": {
                     "type": "boolean",
                     "default": true,
@@ -93,37 +78,12 @@
                     "default": true,
                     "description": "Enable python linting"
                 },
-                "[python]": {
-                    "type": "object",
-                    "title": "Python settings",
-                    "properties": {
-                        "editor.tabSize": {
-                            "type": "integer",
-                            "default": 4
-                        },
-                        "editor.formatOnSave": {
-                            "type": "boolean",
-                            "default": false
-                        },
-                        "editor.rulers": {
-                            "type": "array",
-                            "items": {
-                                "type": "integer"
-                            },
-                            "default": [
-                                79,
-                                119
-                            ],
-                            "description": "List of editor rulers for python"
-                        }
-                    }
-                },
                 "gitlens.advanced.messages": {
                     "type": "object",
                     "properties": {
                         "suppressShowKeyBindingsNotice": {
                             "type": "boolean",
-                            "deafult": true
+                            "default": true
                         }
                     }
                 },
@@ -149,12 +109,27 @@
                 },
                 "prettier.arrowParens": {
                     "type": "string",
-                    "deafult": "always"
+                    "default": "always"
                 },
                 "javascript.updateImportsOnFileMove.enabled": {
                     "type": "string",
                     "default": "never"
                 }
+            }
+        },
+        "configurationDefaults": {
+            "[javascript]": {
+                "editor.rulers": [
+                    99
+                ]
+            },
+            "[python]": {
+                "editor.tabSize": 4,
+                "editor.formatOnSave": false,
+                "editor.rulers": [
+                    79,
+                    119
+                ]
             }
         }
     }
