@@ -2,7 +2,7 @@
     "name": "bgs-starter-kit",
     "displayName": "BGS Starter Kit 🚀",
     "description": "Quickstart for installing tools & adjusting settings to comply with dev workflow at BrightGauge Software",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "publisher": "josecartagena",
     "icon": "images/bg-pie-logo.png",
     "homepage": "https://marketplace.visualstudio.com/items?itemName=josecartagena.bgs-starter-kit",
